@@ -1,0 +1,45 @@
+﻿<head>
+    <meta charset="UTF-8">
+    <title>Audio Player</title>
+	<link rel="stylesheet" href="stylesheet.css">
+    <link rel="stylesheet" href="audiostyle.css">
+</head>
+
+	<body>
+		<ul id = "NavBar">
+			<li><img src="Images/Mercy_Spray.jpg" alt="Logo"></li>
+			<li><a href="index.html">Home</a></li>
+			<li><a class="active" href="audioPlayer.html">AudioPlayer</a></li>
+			<li><a href="about.html">About</a></li>
+		</ul>
+
+		<h1>Lil C's Music Player</h1>
+			
+		<div class id = "main">
+			<a href="index.html"> <img src="Images/Mercy_Spray.jpg" alt="Home Screen"> </a>
+		</div>
+
+		<div class id = "musicPlayer">
+			<audio  src="" controls id="audioPlayer">
+				Sorry, your browser doesn't support html5!
+			</audio>
+
+			<ul id="playlist">
+				<div class="songlist">
+					<li class="current-song"><a href="Music/Beatophile.mp3">Beatophile</a></li>
+					<li><a href="Music/Caravan_Palace.mp3">Caravan Palace</a></li>
+					<li><a href="Music/Posin.mp3">Posin</a></li>
+					<li><a href="Music/Trouble.mp3">Trouble</a></li>
+					<li><a href="Music/Twitch.mp3">Twitch</a></li>
+					<li><a href="Music/zzzs.mp3">前前前世</a></li>
+				</div>
+			</ul>
+
+			<script src="https://code.jquery.com/jquery-2.2.0.js"></script>
+			<script src="audioPlayer.js"></script>
+			<script>
+				audioPlayer();
+			</script>
+		</div>
+	</body>
+</html>

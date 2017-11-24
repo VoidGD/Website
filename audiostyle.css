@@ -1,0 +1,13 @@
+#playlist {
+    list-style: none;
+}
+
+#playlist li a {
+	font-size: 1.2em;
+    color: white;
+    text-decoration: none;
+}
+
+#playlist .current-song a {
+    color: #3e048c;
+}
