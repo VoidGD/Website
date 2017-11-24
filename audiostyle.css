@@ -8,6 +8,6 @@
     text-decoration: none;
 }
 
-#playlist .current-song a {
+#playlist .playing a {
     color: #3e048c;
 }
